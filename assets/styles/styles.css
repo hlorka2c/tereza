@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    max-width: 31.25rem;
+    margin: 0 auto;
+    padding: 6.5rem 0;
+}
+
+.title-h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Inter';
+    text-align: center;
+}
+
+.description {
+    font-family: 'Inter';
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+.form {
+    margin: 0 auto;
+    margin-top: 3.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.form-field {
+    padding: 0.9375rem 1.375rem;
+    border: 1px solid #454375;
+    display: flex;
+    gap: 0.6875rem;
+}
+
+.form-input {
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+
+.form-input::placeholder {
+    color: #000;
+}
+
+.form-input:focus {
+    outline: none;
+    /* border-bottom: 1px solid #454375; */
+    -webkit-box-shadow: 0px 1px 1px 1px #454375;;
+    -moz-box-shadow: 0px 1px 1px 1px #454375;;
+    box-shadow: 0px 1px 0px 0px #454375;;
+}
+
+@media (max-width: 520px) {
+    .container {
+        padding: 4.5rem 1rem;
+    }
+    .title-h1 {
+        font-size: 2.75rem;
+    }
+}
